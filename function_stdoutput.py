@@ -1,8 +1,8 @@
 #!usr/bin/env python
 
-def FuncOut(k, j):
+def  FuncOut(k, j):
     print "Hi!my name is ",k +"and my age is",j
     print "\nHi!my name is {}  and my age is {}".format(k,j)
     print "\nHi! my name is %s  and my age is %s"%(k,j)
 
-myFunc("Mary",19)
+FuncOut("Mary",19)
